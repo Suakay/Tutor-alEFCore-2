@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_14_NTierMapping.UI</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\14-NTierMapping.DAL\14-NTierMapping.DAL.csproj" />
+    <ProjectReference Include="..\14-NTierMapping.DATA\14-NTierMapping.DATA.csproj" />
+  </ItemGroup>
+
+</Project>
